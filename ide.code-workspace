@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "name": "root",
+            "path": "."
+        },
+        // useful for development work.
+        // problem does not occur if this folder is removed.
+        {
+            "name": "tmp",
+            "path": "/tmp"
+        }
+    ],
+    "settings": {
+        "cmake.configureOnOpen": false,
+        "cmake.loggingLevel": "debug",
+        "cmake.useCMakePresets": "always",
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true
+    }
+}

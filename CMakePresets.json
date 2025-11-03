@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "c++-debug",
+            "binaryDir": "build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_CXX_COMPILER": "c++"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "c++-debug",
+            "configurePreset": "c++-debug"
+        }
+    ],
+    "testPresets": []
+}
